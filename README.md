@@ -49,5 +49,5 @@ Creating **GPUX Crypto Community** decentralized GPU/CPU sharing platform with c
 
 ## 📫 Connect With Me
 - **GitHub:** [github.com/mahad816](https://github.com/mahad816)  
-- **LinkedIn:** [linkedin.com/in/mahadali](https://linkedin.com/in/mahadali)  
+- **LinkedIn:** https://www.linkedin.com/in/mahad0ali/
 - **Email:** mahad.official02@gmail.com 
