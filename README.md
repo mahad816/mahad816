@@ -1,7 +1,7 @@
-## Hi there 👋
 
 
-# 👋 Hi, I’m Mahad Ali
+
+## 👋 Hi, I’m Mahad Ali
 
 **🎓 BS Computer Science, Final Year @ GIKI**  
 📍 Islamabad, Pakistan
