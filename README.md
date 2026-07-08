@@ -1,121 +1,121 @@
+
 # Hi, I'm Mahad Ali 👋
 
-**AI Engineer • Backend Developer • Computer Science Graduate**
+**Final-Year CS @ GIKI · AI Applications · Backend · Agentic RAG**
 
-I'm a Computer Science graduate from **GIKI (Ghulam Ishaq Khan Institute)** with a strong interest in building AI-powered applications, backend systems, and developer tools. I enjoy designing practical software that combines modern LLM workflows, scalable backend architecture, and clean user experiences.
+I build **production-style AI systems** — not notebook demos. My focus is **Retrieval-Augmented Generation (RAG)**, **LangGraph agent workflows**, and **scalable FastAPI backends** with real data pipelines, tests, and documentation.
 
-Currently I'm focused on Retrieval-Augmented Generation (RAG), agentic AI systems, distributed applications, and cloud-native development.
-
----
-
-## Technologies
-
-### Languages
-- Python
-- JavaScript / TypeScript
-- C++
-
-### AI & Machine Learning
-- LangGraph
-- LangChain
-- Retrieval-Augmented Generation (RAG)
-- LLM Applications
-- Google Gemini API
-- Ollama
-- NLP
-- Prompt Engineering
-
-### Backend
-- FastAPI
-- Django
-- REST APIs
-- PostgreSQL
-- SQLite
-- Authentication
-- Async Python
-
-### Frontend
-- React
-- Next.js
-- Tailwind CSS
-
-### Cloud & DevOps
-- Docker
-- AWS EC2
-- Git
-- Linux
+Currently targeting roles in **AI Engineering**, **ML Engineering**, and **Backend (AI platform)**.
 
 ---
 
-## Featured Projects
+## What I build
 
-### 🚀 DriveMind AI *(In Progress)*
-
-An agentic personal knowledge assistant powered by LangGraph that connects to Google Drive and enables grounded question answering over personal documents using hybrid retrieval, OCR, citation verification, and evaluation workflows.
-
-**Tech:** LangGraph • LangChain • FastAPI • Next.js • PostgreSQL • Qdrant • Docker
+| Focus | How I demonstrate it |
+|-------|---------------------|
+| **Agentic RAG** | LangGraph orchestration, query routing, evidence grading, rewrite loops |
+| **Hybrid retrieval** | Metadata + keyword (PostgreSQL FTS) + vector (Qdrant) with fusion reranking |
+| **Grounded LLM apps** | Citations, source verification, no “chatbot without sources” |
+| **Backend systems** | FastAPI, async PostgreSQL, background jobs, OAuth, 480+ pytest tests |
+| **Full-stack delivery** | Next.js UI, Docker infra, incremental indexing pipelines |
 
 ---
 
-### 🏥 CoreChain
+## 🛠 Tech Stack
 
-A privacy-preserving federated learning platform for collaborative medical AI research using secure model aggregation and blockchain-based auditing.
+**Languages:** Python · JavaScript/TypeScript · C++
 
-- Federated learning with Flower
-- Homomorphic encryption for secure aggregation
-- Hyperledger Fabric for auditability
-- Dockerized deployment
-- AWS-hosted demonstration
+**AI / LLM:** LangGraph · LangChain · RAG · Prompt Engineering · OpenAI API · Google Gemini · Ollama · NLP
 
-**Achievement:** 🥈 2nd Place — Data Science Category, GIKI Industrial Open House 2026
+**Backend:** FastAPI · Django · REST APIs · PostgreSQL · SQLite · JWT · Alembic
+
+**Frontend:** Next.js · React · Tailwind CSS
+
+**Data / Search:** Qdrant · Vector embeddings · Full-text search · Hybrid retrieval
+
+**DevOps:** Docker · AWS EC2 · Linux · Git
+
+**Automation:** n8n · Google Workspace APIs · Gemini Vision workflows
+
+---
+
+## 🚀 Featured Projects
+
+### 🧠 [DriveMind AI](https://github.com/mahad0ali/INFO_VAULT) — Agentic RAG for Google Drive
+
+**Personal knowledge assistant** that indexes Google Drive and answers questions with **grounded citations** — built as a portfolio-grade agentic RAG system.
+
+**Why it's not a simple PDF chatbot:**
+- **Query routing** — CHITCHAT, file inventory, named-file lookup, and hybrid RAG paths
+- **Hybrid retrieval** — metadata + PostgreSQL keyword + Qdrant vector search with RRF merge and reranking
+- **LangGraph agent** — intent planning, selective retrievers, evidence grading, query rewrite loop, citation verification
+- **Incremental indexing** — sync → ingest → chunk → embed pipeline; only changed files re-processed
+- **Multi-format ingestion** — Google Docs, PDF, DOCX, TXT, image OCR (Tesseract)
+- **Full stack** — FastAPI backend, Next.js chat UI, source viewer, OAuth, 480+ backend tests
+
+```text
+Drive → Sync/Ingest/Chunk/Build → PostgreSQL + Qdrant
+User question → classify_query → retrieve → grounded answer + sources
+```
+
+**Tech:** LangGraph · LangChain · FastAPI · Next.js · PostgreSQL · Qdrant · Docker · OpenAI · Google Drive API
+
+🔗 [Repository](https://github.com/mahad0ali/INFO_VAULT) · [Architecture docs](https://github.com/mahad0ali/INFO_VAULT/blob/main/docs/ARCHITECTURE.md)
+
+---
+
+### 🏥 CoreChain — Privacy-Preserving Federated Learning Platform
+
+Distributed medical AI platform for collaborative model training **without sharing raw patient data**.
+
+- Federated Learning (Flower) · Homomorphic encryption · Hyperledger Fabric contribution tracking
+- Dockerized on AWS · **97.9%** accuracy in deployed demonstration
+
+🏆 **2nd Place — Data Science, GIKI Industrial Open House 2026**
 
 ---
 
 ### 📊 PTCL Group Review Intelligence Platform
 
-Developed during my internship with PTCL Group's Data & AI department.
+On-premise AI platform (internship — PTCL Group Data & AI) for collecting, classifying, and visualizing Google Play Store reviews via a **local LLM pipeline**.
 
-Built an AI-powered analytics platform that collected, processed, classified, and visualized Google Play Store reviews using a local LLM pipeline.
-
-**Tech:** Next.js • FastAPI • Python • SQLite • Ollama • Chart.js
+**Tech:** Python · FastAPI · Next.js · SQLite · Ollama · Chart.js
 
 ---
 
-### 📚 Publications Portal
+### ⚙️ AI Workflow Automation Platform
 
-Designed and developed a searchable publications portal for the Pakistan Institute of Education (PIE), enabling efficient document management, filtering, and public access to research publications.
+End-to-end automation with **n8n + Gemini Vision**: process job screenshots → extract structured data → classify opportunities → notify high-fit matches.
 
-**Tech:** Django • PostgreSQL • JavaScript
+**Tech:** n8n · Gemini Vision · Google Drive · Google Sheets · Gmail
 
 ---
 
-## Current Focus
+## 🌱 Currently exploring
 
-I'm currently exploring:
-
-- Agentic AI systems
-- Advanced RAG architectures
-- LangGraph workflows
-- AI evaluation (RAGAS)
+- AI evaluation & retrieval metrics (RAGAS-style benchmarking)
+- Advanced agent patterns with LangGraph
+- Backend system design & cloud-native deployment
 - Distributed systems
-- Cloud-native backend engineering
 
 ---
 
-## GitHub
+## 📂 About this GitHub
 
-Most of my repositories focus on:
+Projects here focus on **AI applications**, **LLM systems**, **backend engineering**, and **workflow automation** — with emphasis on:
 
-- AI applications
-- Backend systems
-- LLM engineering
-- Full-stack development
-- Software architecture
-- Learning through real-world projects
+- Clean architecture & modular services
+- Tested, documented, deployable code
+- Real-world constraints (OAuth, incremental sync, citation grounding)
 
 ---
 
-## Connect
+## 📫 Connect
 
-- **LinkedIn:** https://www.linkedin.com/in/mahad0ali/
-- **Email:** mahad.official02@gmail.com
+🌐 **Portfolio:** [mahadali.vercel.app](https://mahadali.vercel.app)
+
+💼 **LinkedIn:** [linkedin.com/in/mahad0ali](https://linkedin.com/in/mahad0ali)
+
+📧 **Email:** mahad.official02@gmail.com
+
+<!-- ============ COPY TO HERE ============ -->
