@@ -60,7 +60,7 @@ User question → classify_query → retrieve → grounded answer + sources
 
 **Tech:** LangGraph · LangChain · FastAPI · Next.js · PostgreSQL · Qdrant · Docker · OpenAI · Google Drive API
 
-🔗 [Repository](https://github.com/mahad0ali/INFO_VAULT) · [Architecture docs](https://github.com/mahad0ali/INFO_VAULT/blob/main/docs/ARCHITECTURE.md)
+🔗 [Repository](https://github.com/mahad816/DriveMind_AI) · [Architecture docs](https://github.com/mahad816/DriveMind_AI/blob/main/docs/ARCHITECTURE.md)
 
 ---
 
